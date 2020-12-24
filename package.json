@@ -1,0 +1,22 @@
+{
+  "name": "testops-cypress-sample",
+  "version": "0.0.1-beta.1",
+  "description": "testops-cypress-sample",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "cypress run --reporter @katalon/testops-mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cypress": "^6.2.0"
+  },
+  "devDependencies": {
+    "@katalon/testops-mocha": "0.0.1-beta.3",
+    "@tsconfig/node10": "^1.0.7",
+    "@types/mocha": "^8.2.0",
+    "typescript": "^4.1.3"
+  }
+}
