@@ -1,6 +1,6 @@
 {
   "name": "testops-cypress-sample",
-  "version": "0.0.1-beta.1",
+  "version": "1.0.0",
   "description": "testops-cypress-sample",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "cypress": "^6.2.0"
   },
   "devDependencies": {
-    "@katalon/testops-mocha": "0.0.1-beta.3",
+    "@katalon/testops-mocha": "0.0.1-beta.21",
     "@tsconfig/node10": "^1.0.7",
     "@types/mocha": "^8.2.0",
     "typescript": "^4.1.3"
