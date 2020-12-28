@@ -1,7 +1,7 @@
 import { add, subtract, multiply, divide } from '../helpers/calculator'
 const assert =  require('assert');
 
-describe('CalculatorTestCypress', function() {
+describe('CalculatorTestCypress1', function() {
     it('add', function () {
         assert.equal(add(345, 2), 347);
         assert.equal(add(2, 345), 347);
