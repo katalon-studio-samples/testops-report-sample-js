@@ -2,6 +2,5 @@
   "defaultCommandTimeout": 10000,
   "run_settings": {
     "specs": ["cypress/integration/calculator.test.ts"]
-  },
-  "reporter":"@katalon/testops-mocha"
+  }
 }
