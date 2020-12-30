@@ -1,4 +1,4 @@
-import { TestOpsJasmineReporter }  from "@katalon/testops-jasmine";
+import TestOpsJasmineReporter from "@katalon/testops-jasmine";
 
 const reporter = new TestOpsJasmineReporter()
 
