@@ -3,6 +3,9 @@ name: Run test
 on:
   schedule:
     - cron:  '* */6 * * *'
+  pull_request:
+    branches:
+      - master
   push:
     branches:
       - master
