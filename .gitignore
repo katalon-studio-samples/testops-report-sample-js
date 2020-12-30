@@ -3,6 +3,6 @@
 dist/
 .idea/
 node_modules/
-testops-result/
+testops-report/
 *.iml
 /package-lock.json

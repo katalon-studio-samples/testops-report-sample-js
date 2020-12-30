@@ -6,7 +6,13 @@
       "../node_modules/cypress",
       "../node_modules/@katalon/testops-mocha"
     ],
-    "noEmit": true
+    "noEmit": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.promise"
+    ]
   },
   "include": ["**/*.*"]
 }

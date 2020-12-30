@@ -1,0 +1,24 @@
+{
+  "name": "mocha-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "pretest": "npm run build",
+    "test": "mocha dist --recursive --reporter @katalon/testops-mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@katalon/testops-mocha": "0.0.1-beta.28",
+    "mocha-junit-reporter": "^2.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node10": "^1.0.7",
+    "@types/mocha": "^8.2.0",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3"
+  }
+}
