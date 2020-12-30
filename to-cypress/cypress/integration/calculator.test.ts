@@ -19,7 +19,6 @@ describe('Calculator TestOps Cypress', function() {
     });
 
     describe('Nested describe', function () {
-
         it('subtract', function () {
             assert.equal(subtract(500, 200), 300);
             assert.equal(subtract(200, 300), -100);
