@@ -29,10 +29,10 @@ jobs:
 #          npm install
 #          npm test
 
-      - name: Run Cypress test
-        run: |
-          cd $GITHUB_WORKSPACE/to-cypress
-          npm install
+#      - name: Run Cypress test
+#        run: |
+#          cd $GITHUB_WORKSPACE/to-cypress
+#          npm install
           npm test
 
       - name: Run Jest test
