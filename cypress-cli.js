@@ -1,17 +1,10 @@
 const cypress = require('cypress')
-const { CypressTestOpsReporter } = require('@katalon/testops-mocha');
+const CypressTestOpsReporter = require('@katalon/testops-cypress');
 
   cypress.run({
   })
   .then((results) => {
-    const config = {
-      username: "lydoan@kms-technology.com",
-      password: "Dtl#@1999",
-      basePath: "http://localhost:8444/",
-      projectId: 3,
-      reportFolder: "./testops-result"
-    }
-    const reporter = new CypressTestOpsReporter(config);
+    const reporter = new CypressTestOpsReporter();
     reporter.parseAndUploadTestResults(results);
   })
   .catch((err) => {
