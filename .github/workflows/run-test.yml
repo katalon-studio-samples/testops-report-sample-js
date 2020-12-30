@@ -33,7 +33,7 @@ jobs:
 #        run: |
 #          cd $GITHUB_WORKSPACE/to-cypress
 #          npm install
-          npm test
+#          npm test
 
       - name: Run Jest test
         run: |
