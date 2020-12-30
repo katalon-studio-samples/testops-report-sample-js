@@ -7,7 +7,7 @@
     "build": "tsc",
     "watch": "tsc --watch",
     "pretest": "npm run build",
-    "test": "mocha dist --recursive --reporter @katalon/testops-mocha"
+    "test": "mocha dist --recursive --reporter @katalon/testops-mocha './dist/*.js'"
   },
   "author": "",
   "license": "ISC",
