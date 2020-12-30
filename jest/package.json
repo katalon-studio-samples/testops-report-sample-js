@@ -1,0 +1,28 @@
+{
+  "name": "testops-jest-sample",
+  "version": "1.0.0",
+  "description": "TestOps Jest sample ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katalon-studio-samples/testops-jest-sample.git"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katalon-studio-samples/testops-jest-sample/issues"
+  },
+  "homepage": "https://github.com/katalon-studio-samples/testops-jest-sample#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "@katalon/testops-jest": "0.0.1-beta.29"
+  }
+}
