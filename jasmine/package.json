@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@katalon/testops-jasmine": "file:../../testops-report-js/packages/testops-jasmine"
+    "@katalon/testops-jasmine": "1.0.1"
   },
   "devDependencies": {
     "@types/jasmine": "^3.6.2",
