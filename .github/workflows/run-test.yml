@@ -27,7 +27,7 @@ jobs:
         env:
           TESTOPS_BASE_PATH: https://testops.staging.katalon.com
           TESTOPS_API_KEY: ${{ secrets.TESTOPS_API_KEY }}
-          TESTOPS_PROJECT_ID: 68602
+          TESTOPS_PROJECT_ID: 68610
         run: |
           cd $GITHUB_WORKSPACE/mocha
           npm install
@@ -37,7 +37,7 @@ jobs:
         env:
           TESTOPS_BASE_PATH: https://testops.staging.katalon.com
           TESTOPS_API_KEY: ${{ secrets.TESTOPS_API_KEY }}
-          TESTOPS_PROJECT_ID: 68604
+          TESTOPS_PROJECT_ID: 68615
         run: |
           cd $GITHUB_WORKSPACE/cypress
           npm install
@@ -47,7 +47,7 @@ jobs:
         env:
           TESTOPS_BASE_PATH: https://testops.staging.katalon.com
           TESTOPS_API_KEY: ${{ secrets.TESTOPS_API_KEY }}
-          TESTOPS_PROJECT_ID: 68605
+          TESTOPS_PROJECT_ID: 68611
         run: |
           cd $GITHUB_WORKSPACE/jest
           npm install
@@ -57,7 +57,7 @@ jobs:
         env:
           TESTOPS_BASE_PATH: https://testops.staging.katalon.com
           TESTOPS_API_KEY: ${{ secrets.TESTOPS_API_KEY }}
-          TESTOPS_PROJECT_ID: 68606
+          TESTOPS_PROJECT_ID: 68612
         run: |
           cd $GITHUB_WORKSPACE/jasmine
           npm install
