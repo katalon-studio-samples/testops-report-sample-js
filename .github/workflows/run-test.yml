@@ -24,24 +24,40 @@ jobs:
           node-version: '12'
 
       - name: Run Mocha test
+        env:
+          TESTOPS_BASE_PATH: https://testops.staging.katalon.com
+          TESTOPS_API_KEY: ${{ secrets.TESTOPS_API_KEY }}
+          TESTOPS_PROJECT_ID: 68602
         run: |
           cd $GITHUB_WORKSPACE/mocha
           npm install
           npm test || true
 
       - name: Run Cypress test
+        env:
+          TESTOPS_BASE_PATH: https://testops.staging.katalon.com
+          TESTOPS_API_KEY: ${{ secrets.TESTOPS_API_KEY }}
+          TESTOPS_PROJECT_ID: 68604
         run: |
           cd $GITHUB_WORKSPACE/cypress
           npm install
           npm test || true
 
       - name: Run Jest test
+        env:
+          TESTOPS_BASE_PATH: https://testops.staging.katalon.com
+          TESTOPS_API_KEY: ${{ secrets.TESTOPS_API_KEY }}
+          TESTOPS_PROJECT_ID: 68605
         run: |
           cd $GITHUB_WORKSPACE/jest
           npm install
           npm test || true
 
       - name: Run Jasmine test
+        env:
+          TESTOPS_BASE_PATH: https://testops.staging.katalon.com
+          TESTOPS_API_KEY: ${{ secrets.TESTOPS_API_KEY }}
+          TESTOPS_PROJECT_ID: 68606
         run: |
           cd $GITHUB_WORKSPACE/jasmine
           npm install
