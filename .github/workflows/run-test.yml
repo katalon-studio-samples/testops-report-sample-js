@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Cypress test
         run: |
-          cd $GITHUB_WORKSPACE/to-cypress
+          cd $GITHUB_WORKSPACE/cypress
           npm install
           npm test || true
 
