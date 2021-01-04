@@ -13,7 +13,7 @@
     "url": "https://github.com/katalon-studio-samples/testops-cypress-sample"
   },
   "dependencies": {
-    "@katalon/testops-cypress": "1.1.0",
+    "@katalon/testops-cypress": "1.1.1",
     "cypress": "^6.2.0"
   },
   "devDependencies": {
