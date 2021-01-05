@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@katalon/testops-jasmine": "1.1.1"
+    "@katalon/testops-cypress": "1.2.0"
   },
   "devDependencies": {
     "@types/jasmine": "^3.6.2",
