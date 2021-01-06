@@ -23,6 +23,6 @@
     "jest": "^26.6.3"
   },
   "dependencies": {
-    "@katalon/testops-jest": "1.1.1"
+    "@katalon/testops-jest": "1.2.0"
   }
 }
