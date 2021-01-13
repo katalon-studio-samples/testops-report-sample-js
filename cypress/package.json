@@ -13,8 +13,8 @@
     "url": "https://github.com/katalon-studio-samples/testops-cypress-sample"
   },
   "dependencies": {
-    "@katalon/testops-cypress": "1.2.0",
-    "cypress": "^6.2.0"
+    "@katalon/testops-cypress": "^1.2.1",
+    "cypress": "^6.2.1"
   },
   "devDependencies": {
     "@tsconfig/node10": "^1.0.7",
