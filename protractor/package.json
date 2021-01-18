@@ -1,0 +1,25 @@
+{
+  "name": "testops-protractor-sample",
+  "version": "1.0.0",
+  "description": "TestOps Protractor sample",
+  "scripts": {
+    "build": "tsc",
+    "pretest": "npm run cleanup && npm run build && npm run update-webdriver",
+    "test": "protractor",
+    "cleanup": "rimraf dist",
+    "update-webdriver": "webdriver-manager update"
+  },
+  "author": "Katalon, LLC. (https://www.katalon.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@katalon/testops-protractor": "^1.0.0",
+    "@katalon/testops-jasmine": "^1.2.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node10": "^1.0.7",
+    "@types/jasmine": "^3.6.2",
+    "jasmine": "^3.6.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  }
+}

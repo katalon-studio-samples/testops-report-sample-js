@@ -21,3 +21,7 @@ updates:
     directory: "/mocha" # Location of package manifests
     schedule:
       interval: "daily"
+  - package-ecosystem: npm
+    directory: /protractor
+    schedule:
+      interval: daily
