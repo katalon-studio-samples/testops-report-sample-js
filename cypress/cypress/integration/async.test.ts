@@ -1,4 +1,4 @@
-describe("Async test", () => {
+describe("Async test TestOps Cypress", () => {
     it("works with async/await", async function () {
         await new Promise((r) => setTimeout(r, 1000));
     });
