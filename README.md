@@ -24,3 +24,9 @@ cd jasmine && npm install && npm test
 ```
 cd jest && npm install && npm test
 ```
+
+# Protractor Jasmine Sample
+`protractor` directory
+```
+cd protractor && npm install && npm test
+```
