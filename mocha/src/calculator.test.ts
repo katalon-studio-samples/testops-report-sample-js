@@ -18,7 +18,7 @@ describe('Calculator executed TestOps Mocha', function() {
         assert.equal(divide(600, 2), 200);
     });
 
-    describe('Nested describe', function () {
+    describe('Nested describe TestOps Mocha', function () {
 
         it('subtract', function () {
             assert.equal(subtract(500, 200), 300);
