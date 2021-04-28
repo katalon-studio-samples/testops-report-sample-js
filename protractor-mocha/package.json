@@ -1,7 +1,7 @@
 {
-  "name": "testops-protractor-sample",
+  "name": "testops-protractor-mocha-sample",
   "version": "1.0.0",
-  "description": "TestOps Protractor sample",
+  "description": "TestOps Protractor Mocha sample",
   "scripts": {
     "build": "tsc",
     "pretest": "npm run cleanup && npm run build && npm run update-webdriver",
