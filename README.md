@@ -30,3 +30,9 @@ cd jest && npm install && npm test
 ```
 cd protractor && npm install && npm test
 ```
+
+# Protractor Mocha Sample
+`protractor-mocha` directory
+```
+cd protractor-mocha && npm install && npm test
+```
