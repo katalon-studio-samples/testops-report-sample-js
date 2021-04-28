@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@katalon/testops-mocha": "^1.2.1"
+    "@katalon/testops-mocha": "^1.2.2"
   },
   "devDependencies": {
     "@tsconfig/node10": "^1.0.7",
