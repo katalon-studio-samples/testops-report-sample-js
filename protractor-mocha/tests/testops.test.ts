@@ -47,13 +47,10 @@ describe("slow calculator", function () {
         by.repeater("result in memory").column!("result.value")
       );
       memory.then(function (arr) {
-        expect(arr.length).to.eventually.equal(2);
+        expect(arr.length).to.equal(2);
         expect(arr[0].getText()).to.eventually.equal("30"); // 10 + 20 = 30
         expect(arr[1].getText()).to.eventually.equal("2"); // 1 + 1 = 2
       });
     });
-    it("close browser", function() {
-      browser.close();
-    })
   });
 });
