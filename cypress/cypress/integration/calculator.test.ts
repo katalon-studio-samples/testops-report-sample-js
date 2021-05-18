@@ -18,7 +18,7 @@ describe('Calculator TestOps Cypress', function() {
         assert.equal(divide(600, 2), 200);
     });
 
-    describe('Nested describe', function () {
+    describe('Nested describe TestOps Cypress', function () {
         it('subtract', function () {
             assert.equal(subtract(500, 200), 300);
             assert.equal(subtract(200, 300), -100);

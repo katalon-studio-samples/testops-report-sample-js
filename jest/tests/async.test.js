@@ -1,4 +1,4 @@
-describe("Async test", () => {
+describe("Async test TestOps Jest", () => {
   it("works with async/await", async () => {
     await new Promise((r) => setTimeout(r, 1000));
   });

@@ -1,7 +1,7 @@
 import { add, subtract, multiply, divide } from './calculator'
 const assert =  require('assert');
 
-describe('Calculator', function() {
+describe('Calculator executed TestOps Mocha', function() {
     it('should passed', function (done) {
         assert.equal(add(345, 2), 347);
         assert.equal(add(2, 345), 347);
@@ -18,7 +18,7 @@ describe('Calculator', function() {
         assert.equal(divide(600, 2), 200);
     });
 
-    describe('Nested describe', function () {
+    describe('Nested describe TestOps Mocha', function () {
 
         it('subtract', function () {
             assert.equal(subtract(500, 200), 300);
