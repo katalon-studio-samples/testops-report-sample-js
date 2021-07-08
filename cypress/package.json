@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@katalon/testops-cypress": "latest",
-    "cypress": "^6.2.1"
+    "cypress": "^7.7.0"
   },
   "devDependencies": {
     "@tsconfig/node10": "^1.0.7",
