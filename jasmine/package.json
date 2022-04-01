@@ -15,7 +15,7 @@
     "@katalon/testops-jasmine": "latest"
   },
   "devDependencies": {
-    "@types/jasmine": "^3.6.2",
+    "@types/jasmine": "^4.0.2",
     "jasmine": "^3.6.3",
     "@tsconfig/node10": "^1.0.7",
     "typescript": "^4.1.3",
